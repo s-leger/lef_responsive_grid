@@ -1,0 +1,14 @@
+
+.lef_responsive_grid.field-inline .t3-form-field-container-flex{
+display:block;
+float:left;
+}
+.lef_responsive_grid.field-inline-4 .t3-form-field-container-flex{
+width:25%;
+}
+.lef_responsive_grid.field-inline-3 .t3-form-field-container-flex{
+width:33%;
+}
+.lef_responsive_grid.field-inline-2 .t3-form-field-container-flex{
+width:50%;
+}

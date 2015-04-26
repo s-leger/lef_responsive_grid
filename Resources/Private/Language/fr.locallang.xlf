@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2015-03-14T08:08:22Z" product-name="lef_responsive_grid">
+<header/>
+<body>
+<trans-unit id="title.1col">
+<source>1 column</source>
+<target state="translated">1 colonne</target></trans-unit>
+<trans-unit id="description.1col">
+<source>Inserts a 1-columns grid for content. The width and offset of column may be set for different screen sizes.</source>
+<target state="translated">Insère une ligne à 1 colonne. La largeur et de décâlage des colonnes peut être défini pour chaque taille d'écran.</target></trans-unit>
+<trans-unit id="title.2col">
+<source>2 columns</source>
+<target state="translated">2 colonnes</target></trans-unit>
+<trans-unit id="description.2col">
+<source>Inserts a 2-columns grid for content. The width and offset of each column may be set for different screen sizes.</source>
+<target state="translated">Insère une ligne à 2 colonnes. La largeur et de décâlage des colonnes peut être défini pour chaque taille d'écran.</target></trans-unit>
+<trans-unit id="title.3col">
+<source>3 columns</source>
+<target state="translated">3 colonnes</target></trans-unit>
+<trans-unit id="description.3col">
+<source>Inserts a 3-columns grid for content. The width and offset of each column may be set for different screen sizes.</source>
+<target state="translated">Insère une ligne à 3 colonnes. La largeur et de décâlage des colonnes peut être défini pour chaque taille d'écran.</target></trans-unit>
+<trans-unit id="title.4col">
+<source>4 columns</source>
+<target state="translated">4 colonnes</target></trans-unit>
+<trans-unit id="description.4col">
+<source>Inserts a 4-columns grid for content. The width and offset of each column may be set for different screen sizes.</source>
+<target state="translated">Insère une ligne à 4 colonnes. La largeur et de décâlage des colonnes peut être défini pour chaque taille d'écran.</target></trans-unit>
+<trans-unit id="title.container">
+<source>Container</source>
+<target state="translated">Conteneur</target></trans-unit>
+<trans-unit id="description.container">
+<source>Inserts a container for columns. Use this as a column container with a clean template.</source>
+<target state="translated">Insère un conteneur pour lignes. S'utilise avec un template sans conteneur.</target></trans-unit>
+
+
+<trans-unit id="title.row">
+<source>Row</source>
+<target state="translated">Ligne</target></trans-unit>
+<trans-unit id="description.row">
+<source>Inserts a row container for columns.</source>
+<target state="translated">Insère une ligne pour des colonnes.</target></trans-unit>
+
+<trans-unit id="title.col">
+<source>Container</source>
+<target state="translated">Colonne</target></trans-unit>
+<trans-unit id="description.col">
+<source>Inserts a container for columns. Use this as a column container with a clean template.</source>
+<target state="translated">Insère une colonne. Permet de séparer les lignes en multiples colonnes.</target></trans-unit>
+
+
+<trans-unit id="sheet.visibility">
+<source>Visibility</source>
+<target state="translated">Visibilité</target></trans-unit>
+
+<trans-unit id="sheet.css">
+<source>Custom CSS</source>
+<target state="translated">CSS utilisateur</target></trans-unit>
+
+<trans-unit id="sheet.breakpoint">
+<source>Breakpoints</source>
+<target state="translated">Point de rupture</target></trans-unit>
+<trans-unit id="sheet.md">
+<source>Medium</source>
+<target state="translated">Moyen</target></trans-unit>
+<trans-unit id="sheet.sm">
+<source>Small</source>
+<target state="translated">Petit</target></trans-unit>
+<trans-unit id="sheet.xs">
+<source>Xtra small</source>
+<target state="translated">Très petit</target></trans-unit>
+<trans-unit id="sheet.lg">
+<source>Large</source>
+<target state="translated">Grand</target></trans-unit>
+
+<trans-unit id="sheet.width">
+<source>Width</source>
+<target state="translated">Largeur</target></trans-unit>
+<trans-unit id="sheet.offset">
+<source>Offset</source>
+<target state="translated">Decâlage</target></trans-unit>
+<trans-unit id="sheet.push">
+<source>Push</source>
+<target state="translated">Pousser</target></trans-unit>
+<trans-unit id="sheet.pull">
+<source>Pull</source>
+<target state="translated">Tirer</target></trans-unit>
+
+
+<trans-unit id="label.md">
+<source>Medium</source>
+<target state="translated">Moyen</target></trans-unit>
+<trans-unit id="label.sm">
+<source>Small</source>
+<target state="translated">Petit</target></trans-unit>
+<trans-unit id="label.xs">
+<source>Extra small</source>
+<target state="translated">Très petit</target></trans-unit>
+<trans-unit id="label.lg">
+<source>Large</source>
+<target state="translated">Grand</target></trans-unit>
+
+<trans-unit id="label.content">
+<source>Content</source>
+<target state="translated">Contenu</target></trans-unit>
+
+<trans-unit id="label.row">
+<source>Row</source>
+<target state="translated">Ligne</target></trans-unit>
+<trans-unit id="label.col">
+<source>Column</source>
+<target state="translated">Colonne</target></trans-unit>
+<trans-unit id="label.col1">
+<source>Column 1</source>
+<target state="translated">Colonne 1</target></trans-unit>
+<trans-unit id="label.col2">
+<source>Column 2</source>
+<target state="translated">Colonne 2</target></trans-unit>
+<trans-unit id="label.col3">
+<source>Column 3</source>
+<target state="translated">Colonne 3</target></trans-unit>
+<trans-unit id="label.col4">
+<source>Column 4</source>
+<target state="translated">Colonne 4</target></trans-unit>
+
+<trans-unit id="label.width.col1">
+<source>Column 1 width</source>
+<target state="translated">Colonne 1 largeur</target></trans-unit>
+<trans-unit id="label.width.col2">
+<source>Column 2 width</source>
+<target state="translated">Colonne 2 largeur</target></trans-unit>
+<trans-unit id="label.width.col3">
+<source>Column 3 width</source>
+<target state="translated">Colonne 3 largeur</target></trans-unit>
+<trans-unit id="label.width.col4">
+<source>Column 4 width</source>
+<target state="translated">Colonne 4 largeur</target></trans-unit>
+
+<trans-unit id="label.offset.col1">
+<source>Column 1 offset</source>
+<target state="translated">Colonne 1 décalage</target></trans-unit>
+<trans-unit id="label.offset.col2">
+<source>Column 2 offset</source>
+<target state="translated">Colonne 2 décalage</target></trans-unit>
+<trans-unit id="label.offset.col3">
+<source>Column 3 offset</source>
+<target state="translated">Colonne 3 décalage</target></trans-unit>
+<trans-unit id="label.offset.col4">
+<source>Column 4 offset</source>
+<target state="translated">Colonne 4 décalage</target></trans-unit>
+
+<trans-unit id="label.push.col1">
+<source>Column 1 push</source>
+<target state="translated">Colonne 1 pousser vers la droite</target></trans-unit>
+<trans-unit id="label.push.col2">
+<source>Column 2 push</source>
+<target state="translated">Colonne 2 pousser vers la droite</target></trans-unit>
+<trans-unit id="label.push.col3">
+<source>Column 3 push</source>
+<target state="translated">Colonne 3 pousser vers la droite</target></trans-unit>
+<trans-unit id="label.push.col4">
+<source>Column 4 push</source>
+<target state="translated">Colonne 4 pousser vers la droite</target></trans-unit>
+
+
+<trans-unit id="label.pull.col1">
+<source>Column 1 pull</source>
+<target state="translated">Colonne 1 tirer vers la gauche</target></trans-unit>
+<trans-unit id="label.pull.col2">
+<source>Column 2 pull</source>
+<target state="translated">Colonne 2 tirer vers la gauche</target></trans-unit>
+<trans-unit id="label.pull.col3">
+<source>Column 3 pull</source>
+<target state="translated">Colonne 3 tirer vers la gauche</target></trans-unit>
+<trans-unit id="label.pull.col4">
+<source>Column 4 pull</source>
+<target state="translated">Colonne 4 tirer vers la gauche</target></trans-unit>
+
+<trans-unit id="label.clear.col1">
+<source>Column 1 add a column reset</source>
+<target state="translated">Colonne 1 retour a la ligne</target></trans-unit>
+<trans-unit id="label.clear.col2">
+<source>Column 2 add a column reset</source>
+<target state="translated">Colonne 2  retour a la ligne</target></trans-unit>
+<trans-unit id="label.clear.col3">
+<source>Column 3 add a column resetl</source>
+<target state="translated">Colonne 3  retour a la ligne</target></trans-unit>
+<trans-unit id="label.equalheight" xml:space="preserve">
+<source>Columns with equal height</source>
+<target state="translated">Hauteur de colonnes egales</target></trans-unit>
+</trans-unit>
+<trans-unit id="label.css.row">
+<source>Row additional CSS class</source>
+<target state="translated">Classe CSS additionnelle pour la ligne</target></trans-unit>
+<trans-unit id="label.css.col1">
+<source>Column 1 additional CSS class</source>
+<target state="translated">Classe CSS additionnelle pour la colonne 1</target></trans-unit>
+<trans-unit id="label.css.col2">
+<source>Column 2 additional CSS class</source>
+<target state="translated">Classe CSS additionnelle pour la colonne 2</target></trans-unit>
+<trans-unit id="label.css.col3">
+<source>Column 3 additional CSS class</source>
+<target state="translated">Classe CSS additionnelle pour la colonne 3</target></trans-unit>
+<trans-unit id="label.css.col4">
+<source>Column 4 additional CSS class</source>
+<target state="translated">Classe CSS additionnelle pour la colonne 4</target></trans-unit>
+
+<trans-unit id="label.visible.sm">
+<source>Visible on Small devices</source>
+<target state="translated">Visible sur les petits écrans</target></trans-unit>
+<trans-unit id="label.visible.xs">
+<source>Visible on Extra small devices</source>
+<target state="translated">Visible sur les très petits écrans</target></trans-unit>
+<trans-unit id="label.visible.md">
+<source>Visible on Medium devices</source>
+<target state="translated">Visible sur les écrans moyens</target></trans-unit>
+<trans-unit id="label.visible.lg">
+<source>Visible on Large devices</source>
+<target state="translated">Visible sur les grands écrans</target></trans-unit>
+
+<trans-unit id="label.hidden.sm">
+<source>Hidden on Small devices</source>
+<target state="translated">Caché sur les petits écrans</target></trans-unit>
+<trans-unit id="label.hidden.xs">
+<source>Hidden on Extra small devices</source>
+<target state="translated">Caché sur les très petits écrans</target></trans-unit>
+<trans-unit id="label.hidden.md">
+<source>Hidden on Medium devices</source>
+<target state="translated">Caché sur les écrans moyens</target></trans-unit>
+<trans-unit id="label.hidden.lg">
+<source>Hidden on Large devices</source>
+<target state="translated">Caché sur les grands écrans</target></trans-unit>
+
+<trans-unit id="label.notset">
+<source>not set</source>
+<target state="translated">non défini</target></trans-unit>
+
+<trans-unit id="label.enable">
+<source>Enable</source>
+<target state="translated">Activer</target></trans-unit>
+<trans-unit id="label.none">
+<source>none</source>
+<target state="translated">aucun</target></trans-unit>
+
+
+</body>
+</file>
+</xliff>

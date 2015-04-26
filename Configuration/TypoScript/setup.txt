@@ -1,0 +1,13 @@
+#####################################
+#### LEF Bootstrap 3.x Grids     ####
+#####################################
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:lef_responsive_grid/Configuration/TypoScript/Library/" extension="setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_container.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_row.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_1col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_2col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_3col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_4col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/tt_content.stdWrap.innerWrap.setupts">
+

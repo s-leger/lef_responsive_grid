@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2015-03-14T08:08:22Z" product-name="lef_responsive_grid">
+        <header/>
+        <body>
+      <trans-unit id="title.1col" xml:space="preserve">
+        <source>1 column</source>
+      </trans-unit>
+      <trans-unit id="description.1col" xml:space="preserve">
+        <source>Inserts a row with 1-column for content. The width and offset of column may be set for different screen sizes.</source>
+      </trans-unit>
+      <trans-unit id="title.2col" xml:space="preserve">
+        <source>2 columns</source>
+      </trans-unit>
+      <trans-unit id="description.2col" xml:space="preserve">
+        <source>Inserts a row with 2-columns for content. The width and offset of each column may be set for different screen sizes.</source>
+      </trans-unit>
+      <trans-unit id="title.3col" xml:space="preserve">
+        <source>3 columns</source>
+      </trans-unit>
+            <trans-unit id="description.3col" xml:space="preserve">
+        <source>Inserts a row with 3-columns for content. The width and offset of each column may be set for different screen sizes.</source>
+      </trans-unit>
+            <trans-unit id="title.4col" xml:space="preserve">
+        <source>4 columns</source>
+      </trans-unit>
+            <trans-unit id="description.4col" xml:space="preserve">
+        <source>Inserts a row with 4-columns for content. The width and offset of each column may be set for different screen sizes.</source>
+      </trans-unit>
+      <trans-unit id="title.container" xml:space="preserve">
+        <source>Container</source>
+      </trans-unit>
+      <trans-unit id="description.container" xml:space="preserve">
+        <source>Inserts a container for rows. Use this as a row or multi-columns container with a clean template.</source>
+      </trans-unit>
+ 
+       <trans-unit id="title.row" xml:space="preserve">
+        <source>Row</source>
+      </trans-unit>
+      <trans-unit id="description.row" xml:space="preserve">
+        <source>Inserts a row. Use this as a columns container.</source>
+      </trans-unit>
+            <trans-unit id="title.col" xml:space="preserve">
+        <source>Column</source>
+      </trans-unit>
+      <trans-unit id="description.col" xml:space="preserve">
+        <source>Inserts a column into a row. Use one or more in row to create advanced layouts.</source>
+      </trans-unit>   
+    
+    <trans-unit id="sheet.visibility" xml:space="preserve">
+        <source>Visibility</source>
+      </trans-unit>
+      
+       <trans-unit id="sheet.css" xml:space="preserve">
+        <source>Custom CSS</source>
+      </trans-unit>
+      
+      <trans-unit id="sheet.breakpoint" xml:space="preserve">
+        <source>Breakpoints</source>
+      </trans-unit>
+      <trans-unit id="sheet.md" xml:space="preserve">
+        <source>Medium</source>
+      </trans-unit>
+            <trans-unit id="sheet.sm" xml:space="preserve">
+        <source>Small</source>
+      </trans-unit>
+            <trans-unit id="sheet.xs" xml:space="preserve">
+        <source>Extra small</source>
+      </trans-unit>
+            <trans-unit id="sheet.lg" xml:space="preserve">
+        <source>Large</source>
+      </trans-unit>
+     
+       <trans-unit id="sheet.width" xml:space="preserve">
+        <source>Width</source>
+      </trans-unit>
+            <trans-unit id="sheet.offset" xml:space="preserve">
+        <source>Offset</source>
+      </trans-unit>
+            <trans-unit id="sheet.push" xml:space="preserve">
+        <source>Push</source>
+      </trans-unit>
+            <trans-unit id="sheet.pull" xml:space="preserve">
+        <source>Pull</source>
+      </trans-unit>
+     
+     
+       <trans-unit id="label.md" xml:space="preserve">
+        <source>Medium</source>
+      </trans-unit>
+            <trans-unit id="label.sm" xml:space="preserve">
+        <source>Small</source>
+      </trans-unit>
+            <trans-unit id="label.xs" xml:space="preserve">
+        <source>Extra small</source>
+      </trans-unit>
+            <trans-unit id="label.lg" xml:space="preserve">
+        <source>Large</source>
+      </trans-unit>          
+       
+      <trans-unit id="label.content" xml:space="preserve">
+        <source>Content</source>
+      </trans-unit>
+      
+      <trans-unit id="label.row" xml:space="preserve">
+        <source>Row</source>
+      </trans-unit>
+      <trans-unit id="label.col" xml:space="preserve">
+        <source>Column</source>
+      </trans-unit>
+            <trans-unit id="label.col1" xml:space="preserve">
+        <source>Column 1</source>
+      </trans-unit>
+            <trans-unit id="label.col2" xml:space="preserve">
+        <source>Column 2</source>
+      </trans-unit>
+            <trans-unit id="label.col3" xml:space="preserve">
+        <source>Column 3</source>
+      </trans-unit>
+            <trans-unit id="label.col4" xml:space="preserve">
+        <source>Column 4</source>
+      </trans-unit>
+      
+      <trans-unit id="label.width.col1" xml:space="preserve">
+        <source>Column 1 width</source>
+      </trans-unit>
+            <trans-unit id="label.width.col2" xml:space="preserve">
+        <source>Column 2 width</source>
+      </trans-unit>
+            <trans-unit id="label.width.col3" xml:space="preserve">
+        <source>Column 3 width</source>
+      </trans-unit>
+            <trans-unit id="label.width.col4" xml:space="preserve">
+        <source>Column 4 width</source>
+      </trans-unit>
+      
+      <trans-unit id="label.offset.col1" xml:space="preserve">
+        <source>Column 1 offset</source>
+      </trans-unit>
+            <trans-unit id="label.offset.col2" xml:space="preserve">
+        <source>Column 2 offset</source>
+      </trans-unit>
+            <trans-unit id="label.offset.col3" xml:space="preserve">
+        <source>Column 3 offset</source>
+      </trans-unit>
+            <trans-unit id="label.offset.col4" xml:space="preserve">
+        <source>Column 4 offset</source>
+      </trans-unit>
+      
+       <trans-unit id="label.pull.col1" xml:space="preserve">
+        <source>Column 1 pull</source>
+      </trans-unit>
+            <trans-unit id="label.pull.col2" xml:space="preserve">
+        <source>Column 2 pull</source>
+      </trans-unit>
+            <trans-unit id="label.pull.col3" xml:space="preserve">
+        <source>Column 3 pull</source>
+      </trans-unit>
+            <trans-unit id="label.pull.col4" xml:space="preserve">
+        <source>Column 4 pull</source>
+      </trans-unit>
+      
+      <trans-unit id="label.push.col1" xml:space="preserve">
+        <source>Column 1 push</source>
+      </trans-unit>
+            <trans-unit id="label.push.col2" xml:space="preserve">
+        <source>Column 2 push</source>
+      </trans-unit>
+            <trans-unit id="label.push.col3" xml:space="preserve">
+        <source>Column 3 push</source>
+      </trans-unit>
+            <trans-unit id="label.push.col4" xml:space="preserve">
+        <source>Column 4 push</source>
+      </trans-unit>
+      
+       <trans-unit id="label.clear.col1" xml:space="preserve">
+        <source>Column 1 add a column reset</source>
+      </trans-unit>
+            <trans-unit id="label.clear.col2" xml:space="preserve">
+        <source>Column 2 add a column reset</source>
+      </trans-unit>
+            <trans-unit id="label.clear.col3" xml:space="preserve">
+        <source>Column 3 add a column reset</source>
+      </trans-unit>
+           
+       <trans-unit id="label.equalheight" xml:space="preserve">
+        <source>Columns with equal height</source>
+      </trans-unit>
+      
+      <trans-unit id="label.css.row" xml:space="preserve">
+        <source>Row additional CSS class</source>
+      </trans-unit>
+      <trans-unit id="label.css.col1" xml:space="preserve">
+        <source>Column 1 additional CSS class</source>
+      </trans-unit>
+            <trans-unit id="label.css.col2" xml:space="preserve">
+        <source>Column 2 additional CSS class</source>
+      </trans-unit>
+            <trans-unit id="label.css.col3" xml:space="preserve">
+        <source>Column 3 additional CSS class</source>
+      </trans-unit>
+            <trans-unit id="label.css.col4" xml:space="preserve">
+        <source>Column 4 additional CSS class</source>
+      </trans-unit>
+      
+      <trans-unit id="label.visible.sm" xml:space="preserve">
+        <source>Visible on Small devices</source>
+      </trans-unit>
+      <trans-unit id="label.visible.xs" xml:space="preserve">
+        <source>Visible on Extra small devices</source>
+      </trans-unit>
+      <trans-unit id="label.visible.md" xml:space="preserve">
+        <source>Visible on Medium devices</source>
+      </trans-unit>
+      <trans-unit id="label.visible.lg" xml:space="preserve">
+        <source>Visible on Large devices</source>
+      </trans-unit>
+      
+      <trans-unit id="label.hidden.sm" xml:space="preserve">
+        <source>Hidden on Small devices</source>
+      </trans-unit>
+      <trans-unit id="label.hidden.xs" xml:space="preserve">
+        <source>Hidden on Extra small devices</source>
+      </trans-unit>
+      <trans-unit id="label.hidden.md" xml:space="preserve">
+        <source>Hidden on Medium devices</source>
+      </trans-unit>
+      <trans-unit id="label.hidden.lg" xml:space="preserve">
+        <source>Hidden on Large devices</source>
+      </trans-unit>
+      
+      <trans-unit id="label.notset" xml:space="preserve">
+        <source>not set</source>
+      </trans-unit>
+      
+       <trans-unit id="label.enable" xml:space="preserve">
+        <source>Enable</source>
+      </trans-unit>
+      <trans-unit id="label.none" xml:space="preserve">
+        <source>none</source>
+      </trans-unit>
+      
+      
+    </body>
+  </file>
+</xliff>

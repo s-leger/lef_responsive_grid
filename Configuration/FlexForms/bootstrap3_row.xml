@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+    <meta type="array">
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <general>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.params</sheetTitle>
+                </TCEforms>
+                <el type="array">
+                    <equalheight type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.equalheight</label>
+                            <config type="array">
+                                <type>check</type>
+                                <items>
+                                    <numIndex index="0">
+                                        <numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.enable</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </equalheight>     
+                </el>
+            </ROOT>
+        </general>
+        <visibility>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.visibility</sheetTitle>
+                </TCEforms>
+                <el type="array">
+                    <visibility_element type="array">
+                        <TCEforms type="array">
+                            <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.row</label>
+                            <config type="array">
+                                <type>select</type>
+                                <items>
+                                    <numIndex index="1"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.hidden.xs</numIndex><numIndex index="1">hidden-xs</numIndex></numIndex>
+                                    <numIndex index="2"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.hidden.sm</numIndex><numIndex index="1">hidden-sm</numIndex></numIndex>
+                                    <numIndex index="3"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.hidden.md</numIndex><numIndex index="1">hidden-md</numIndex></numIndex>
+                                    <numIndex index="4"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.hidden.lg</numIndex><numIndex index="1">hidden-lg</numIndex></numIndex>
+                                    <numIndex index="5"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.visible.xs</numIndex><numIndex index="1">visible-xs</numIndex></numIndex>
+                                    <numIndex index="6"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.visible.sm</numIndex><numIndex index="1">visible-sm</numIndex></numIndex>
+                                    <numIndex index="7"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.visible.md</numIndex><numIndex index="1">visible-md</numIndex></numIndex>
+                                    <numIndex index="8"><numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.visible.lg</numIndex><numIndex index="1">visible-lg</numIndex></numIndex>
+                                </items>
+                                <maxitems>3</maxitems>
+                                <size>8</size>
+                                <default></default>
+                            </config>
+                        </TCEforms>
+                    </visibility_element>
+                </el>
+            </ROOT>
+        </visibility>     
+        <additionalCSS>
+            <ROOT type="array">
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.css</sheetTitle>
+                </TCEforms>
+                <el type="array">
+                    <customCss_row>
+                        <TCEforms type="array">
+                            <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.css.row</label>
+                            <config type="array">
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </customCss_row>
+                </el>
+            </ROOT>
+        </additionalCSS>
+    </sheets>
+</T3DataStructure>

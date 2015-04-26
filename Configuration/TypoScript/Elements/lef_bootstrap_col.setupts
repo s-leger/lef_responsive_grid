@@ -1,0 +1,119 @@
+
+#####################################
+## Simple column without row
+#####################################
+
+lib.gridelements {
+
+    lef_bootstrap_col {
+        stdWrap {
+            # clearfix between columns
+            append = COA
+            append {
+                20 = COA
+                20 {
+                    10 = TEXT
+                    10 {
+                        value = visible-xs-block
+                        if.isTrue.field = flexform_clear_column_xs_1
+                        noTrimWrap = | ||
+                        required = 1
+                    }
+                    20 < .10
+                    20 {
+                        value = visible-sm-block
+                        if.isTrue.field = flexform_clear_column_sm_1
+                    }
+                    30 < .10
+                    30 {
+                        value = visible-md-block
+                        if.isTrue.field = flexform_clear_column_md_1
+                    }
+                    stdWrap{
+                        required = 1
+                        wrap = <div class="clearfix |"></div>
+                    }
+                }
+            }
+        }
+        columns.0 {
+            renderObj = COA
+            renderObj {
+                
+                10 = LOAD_REGISTER
+                10 {
+                    
+                    columns_xs {
+                        cObject = TEXT
+                        cObject{
+                            value = {$plugin.lef_responsive_images.columns}
+                            override.field = parentgrid_flexform_width_column_xs_1
+                        }
+                    }
+                    columns_sm {
+                        cObject = TEXT
+                        cObject{
+                            data = register:columns_xs
+                            override.field = parentgrid_flexform_width_column_sm_1
+                        }
+                    }
+                    columns_md {
+                        cObject = TEXT
+                        cObject{
+                            data = register:columns_sm
+                            override.field = parentgrid_flexform_width_column_md_1
+                        }
+                    }
+                    columns_lg {
+                        cObject = TEXT
+                        cObject{
+                            data = register:columns_md
+                            override.field = parentgrid_flexform_width_column_lg_1
+                        }
+                    }
+                    
+                    width_xxs {
+                        cObject = COA
+                        cObject{
+                            20 = TEXT
+                            20.data =  register:width_xxs
+                            30 = TEXT
+                            30.value = /{$plugin.lef_responsive_images.columns}*
+                            40 = TEXT
+                            40.data = register:columns_xs
+                        }
+                        prioriCalc=1
+                    }
+                    
+                    width_xs < .width_xxs
+                    width_xs.cObject {
+                        20.data = register:width_xs
+                        40.data = register:columns_xs
+                    }
+                    width_sm < .width_xxs
+                    width_sm.cObject{
+                        20.data = register:width_sm
+                        40.data = register:columns_sm
+                    }
+                    width_md < .width_xxs
+                    width_md.cObject{
+                        20.data = register:width_md
+                        40.data = register:columns_md
+                    }
+                    width_lg < .width_xxs
+                    width_lg.cObject{
+                        20.data = register:width_lg
+                        40.data = register:columns_lg
+                    }
+                }
+                
+                20 = < tt_content
+                
+                # 10-13
+                30 = RESTORE_REGISTER   
+            }
+        }
+    }   
+}
+
+tt_content.gridelements_pi1.20.10.setup.lef_bootstrap_col  < lib.gridelements.lef_bootstrap_col

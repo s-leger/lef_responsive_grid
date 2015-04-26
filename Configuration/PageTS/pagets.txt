@@ -1,0 +1,7 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/container.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/row.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/column.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/1columns.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/2columns.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/3columns.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/4columns.pagets">

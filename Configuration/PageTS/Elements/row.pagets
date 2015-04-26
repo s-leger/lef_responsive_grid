@@ -1,0 +1,32 @@
+#
+# Grid elements
+# Backend Layouts
+#
+
+tx_gridelements.setup{
+
+lef_bootstrap_row {
+title = LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:title.row
+description = LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:description.row
+  flexformDS = FILE:EXT:lef_responsive_grid/Configuration/FlexForms/bootstrap3_row.xml
+  icon = EXT:lef_responsive_grid/Resources/Public/Backend/Images/gridlayout_row.gif
+   frame = 3
+  horizontal = 1
+  config {
+    colCount = 1
+    rowCount = 1
+    rows {
+      1 {
+        columns {
+          1 {
+            name = LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.col
+            colPos = 0
+          }
+        }
+      }
+    }
+  }
+}
+
+
+}

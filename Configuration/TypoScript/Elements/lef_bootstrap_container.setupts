@@ -1,0 +1,11 @@
+#####################################
+## Simple container
+#####################################
+
+lib.gridelements {
+ 
+    lef_bootstrap_container {     
+        columns.0.renderObj = < tt_content
+    }    
+}
+tt_content.gridelements_pi1.20.10.setup.lef_bootstrap_container < lib.gridelements.lef_bootstrap_container
