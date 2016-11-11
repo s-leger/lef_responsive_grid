@@ -1,0 +1,44 @@
+#####################################
+## Simple container
+#####################################
+
+lib.gridelements {
+    
+    lef_bootstrap_forceImageWidth {     
+        
+        
+        columns.0 {
+            
+            renderObj = COA
+            renderObj {
+                
+                5 = LOAD_REGISTER
+
+                10 = USER
+                10 {
+userFunc = LEF\LefResponsiveImages\UserFuncs\TemplateWidthUserFunc->storeToRegister
+xs = TEXT
+xs.field = parentgrid_flexform_width_column_xs_1
+sm < .xs
+sm.field = parentgrid_flexform_width_column_sm_1
+md < .xs
+md.field = parentgrid_flexform_width_column_md_1
+lg < .xs
+lg.field = parentgrid_flexform_width_column_lg_1
+xs.if.isTrue.field = parentgrid_flexform_xsmall
+sm.if.isTrue.field = parentgrid_flexform_small
+md.if.isTrue.field = parentgrid_flexform_medium
+lg.if.isTrue.field = parentgrid_flexform_large
+}  
+           
+
+                20 =< tt_content
+                
+                # 10-13
+                30 = RESTORE_REGISTER   
+                
+            }
+        }
+    }   
+}
+tt_content.gridelements_pi1.20.10.setup.lef_bootstrap_forceImageWidth < lib.gridelements.lef_bootstrap_forceImageWidth

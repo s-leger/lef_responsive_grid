@@ -3,45 +3,7 @@
 ####################################
 tt_content.stdWrap.innerWrap{
     cObject{
-        default{
-             10.cObject{
-                # Added by lef_bootstrap3_grid
-                gridelements_pi1 = CASE
-                gridelements_pi1{
-                    key.field = tx_gridelements_backend_layout
-                    default = TEXT
-                    default.value = <div id="c{field:uid}"
-                    
-                }   
-            }
-            
-            # Added by lef_bootstrap3_grid
-            20.41 = CASE
-            20.41 {
-                
-                key.field = tx_gridelements_backend_layout
-                
-                default = TEXT
-                default{
-                    required = 1
-                    noTrimWrap = | ||
-                }
-                
-            }
-        
-           
-            30.cObject{
-                # Added by lef_bootstrap3_grid
-                gridelements_pi1 = CASE
-                gridelements_pi1{
-                    key.field = tx_gridelements_backend_layout
-                    default = TEXT
-                    default.value = >|</div>
-                    
-                }
-            }
-        }
-    
+
     # Added by lef_bootstrap3_grid to allow some gridelements to disable innerWrap
     stdWrap.if{
         value = 

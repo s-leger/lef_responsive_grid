@@ -8,7 +8,6 @@
             <ROOT type="array">
                 <TCEforms>
                     <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.breakpoint</sheetTitle>
-                    <cssClass>lef_responsive_grid field-inline field-inline-2</cssClass>
                 </TCEforms>
                 <el type="array">
                     <large type="array">
@@ -90,7 +89,18 @@
                             </config>
                         </TCEforms>
                     </equalheight>       
-                </el>
+                  <backendLayout type="array">
+                        <TCEforms type="array">
+                            <config type="array">
+                                <type>user</type>
+                                <userFunc>LEF\LefResponsiveGrid\UserFuncs\Tca->div</userFunc>
+                                <parameters>
+                                    <cols>4</cols>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </backendLayout> 
+        </el>
             </ROOT>
         </general>
         <columns_md>
@@ -98,10 +108,9 @@
                 <TCEforms>
                     <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.md</sheetTitle>
                     <displayCond>FIELD:general.medium:=:1</displayCond>
-                    <cssClass>lef_responsive_grid field-inline field-inline-2</cssClass>
-  		</TCEforms>
+                </TCEforms>
                 <el type="array">
-                    <width_column_md_1 type="array">
+            <width_column_md_1 type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
                             <config type="array">
@@ -304,7 +313,18 @@
                             </config>
                         </TCEforms>
                     </clear_column_md_1> 
-                </el>
+          <backendLayout type="array">
+                        <TCEforms type="array">
+                            <config type="array">
+                                <type>user</type>
+                                <userFunc>LEF\LefResponsiveGrid\UserFuncs\Tca->div</userFunc>
+                                <parameters>
+                                    <cols>2</cols>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </backendLayout>
+        </el>
             </ROOT>
         </columns_md>
         <columns_xs>
@@ -312,10 +332,9 @@
                 <TCEforms>
                     <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.xs</sheetTitle>
                     <displayCond>FIELD:general.xsmall:=:1</displayCond>
-                    <cssClass>lef_responsive_grid field-inline field-inline-2</cssClass>
                 </TCEforms>
-                <el type="array">
-                    <width_column_xs_1 type="array">
+                <el type="array"> 
+          <width_column_xs_1 type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
                             <config type="array">
@@ -503,7 +522,7 @@
                             </config>
                         </TCEforms>
                     </pull_column_xs_2>
- 					<clear_column_xs_1 type="array">
+           <clear_column_xs_1 type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.clear.col1</label>
                             <config type="array">
@@ -518,7 +537,18 @@
                             </config>
                         </TCEforms>
                     </clear_column_xs_1> 
- 				</el>
+             <backendLayout type="array">
+                        <TCEforms type="array">
+                            <config type="array">
+                                <type>user</type>
+                                <userFunc>LEF\LefResponsiveGrid\UserFuncs\Tca->div</userFunc>
+                                <parameters>
+                                    <cols>2</cols>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </backendLayout>
+        </el>
             </ROOT>
         </columns_xs>
         <columns_sm>
@@ -526,10 +556,9 @@
                 <TCEforms>
                     <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.sm</sheetTitle>
                     <displayCond>FIELD:general.small:=:1</displayCond>
-                     <cssClass>lef_responsive_grid field-inline field-inline-2</cssClass>
-               </TCEforms>
-                <el type="array">
-                    <width_column_sm_1 type="array">
+                </TCEforms>
+                <el type="array"> 
+          <width_column_sm_1 type="array">
                         <TCEforms type="array">
                             <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
                             <config type="array">
@@ -732,7 +761,18 @@
                             </config>
                         </TCEforms>
                     </clear_column_sm_1> 
-                </el>
+                    <backendLayout type="array">
+                        <TCEforms type="array">
+                            <config type="array">
+                                <type>user</type>
+                                <userFunc>LEF\LefResponsiveGrid\UserFuncs\Tca->div</userFunc>
+                                <parameters>
+                                    <cols>2</cols>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </backendLayout>
+        </el>
             </ROOT>
         </columns_sm>
         <columns_lg>
@@ -740,7 +780,6 @@
                 <TCEforms>
                     <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.lg</sheetTitle>
                     <displayCond>FIELD:general.large:=:1</displayCond>
-                    <cssClass>lef_responsive_grid field-inline field-inline-2</cssClass>
                 </TCEforms>
                 <el type="array">
                     <width_column_lg_1 type="array">
@@ -931,7 +970,18 @@
                             </config>
                         </TCEforms>
                     </pull_column_lg_2>
-                </el>
+          <backendLayout type="array">
+                        <TCEforms type="array">
+                            <config type="array">
+                                <type>user</type>
+                                <userFunc>LEF\LefResponsiveGrid\UserFuncs\Tca->div</userFunc>
+                                <parameters>
+                                    <cols>2</cols>
+                                </parameters>
+                            </config>
+                        </TCEforms>
+                    </backendLayout> 
+        </el>
             </ROOT>
         </columns_lg>
         <visibility>

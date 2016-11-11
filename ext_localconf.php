@@ -1,6 +1,6 @@
 <?php
-if(!defined('TYPO3_MODE')) {
-  die('Access denied.');
+if (!defined('TYPO3_MODE')) {
+    die('Access denied.');
 }
 
 // Add Gridelements Content Elements to newContentElement Wizard

@@ -21,13 +21,18 @@ $EM_CONF[$_EXTKEY] = array(
   'uploadfolder' => '0',
   'createDirs' => '',
   'clearCacheOnLoad' => 0,
-  'version' => '0.0.3',
+  'version' => '0.0.7',
+  'autoload' =>
+  array(
+    'psr-4' =>
+    array(
+      'LEF\\LefResponsiveGrid\\' => 'Classes',
+    ),
+  ),
   'constraints' => array(
     'depends' => array(
-      'typo3' => '6.2.0-7.1.99',
-      'gridelements' => '3.0.0-4.0.99',
-      'css_styled_content' => '6.2.0-7.99.99',
-      'lef_responsive_images' => '0.0.1-7.99.99',
+      'typo3' => '7.6.0-7.6.99',
+      'gridelements' => '3.0.0-7.6.99'
     ),
     'conflicts' => array(
       'themes' => '2.3.0',

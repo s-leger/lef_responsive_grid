@@ -9,43 +9,43 @@ lib.gridelements {
         columns.1 < .columns.0
         columns.1 {
             
-            renderObj.10{
-                columns_xs.cObject.override.field = parentgrid_flexform_width_column_xs_2
-                columns_sm.cObject.override.field = parentgrid_flexform_width_column_sm_2
-                columns_md.cObject.override.field = parentgrid_flexform_width_column_md_2
-                columns_lg.cObject.override.field = parentgrid_flexform_width_column_lg_2
+            renderObj.10 {
+                xs.field = parentgrid_flexform_width_column_xs_2
+                sm.field = parentgrid_flexform_width_column_sm_2
+                md.field = parentgrid_flexform_width_column_md_2
+                lg.field = parentgrid_flexform_width_column_lg_2
             }
             
             wrap.cObject{
                 10 {
                     10{
-                        10.field = flexform_width_column_xs_2
-                        11.field = flexform_width_column_sm_2
-                        12.field = flexform_width_column_md_2
-                        13.field = flexform_width_column_lg_2
+                        10.columns.field = flexform_width_column_xs_2
+                        11.columns.field = flexform_width_column_sm_2
+                        12.columns.field = flexform_width_column_md_2
+                        13.columns.field = flexform_width_column_lg_2
                     }
                     20{
-                        20.field = flexform_offset_column_xs_2
-                        21.field = flexform_offset_column_sm_2
-                        22.field = flexform_offset_column_md_2
-                        23.field = flexform_offset_column_lg_2
-                        30.field = flexform_push_column_xs_2
-                        31.field = flexform_push_column_sm_2
-                        32.field = flexform_push_column_md_2
-                        33.field = flexform_push_column_lg_2
-                        40.field = flexform_pull_column_xs_2
-                        41.field = flexform_pull_column_sm_2
-                        42.field = flexform_pull_column_md_2
-                        43.field = flexform_pull_column_lg_2
+                        20.columns.field = flexform_offset_column_xs_2
+                        21.columns.field = flexform_offset_column_sm_2
+                        22.columns.field = flexform_offset_column_md_2
+                        23.columns.field = flexform_offset_column_lg_2
+                        30.columns.field = flexform_push_column_xs_2
+                        31.columns.field = flexform_push_column_sm_2
+                        32.columns.field = flexform_push_column_md_2
+                        33.columns.field = flexform_push_column_lg_2
+                        40.columns.field = flexform_pull_column_xs_2
+                        41.columns.field = flexform_pull_column_sm_2
+                        42.columns.field = flexform_pull_column_md_2
+                        43.columns.field = flexform_pull_column_lg_2
                         50.field = flexform_customCss_col2
-                        60.field = flexform_visibility_col2
+                        60.visible.field = flexform_visibility_col2
                     }
                 }
                 30{
                     
-                    10.if.isTrue.field = flexform_clear_column_xs_2
-                    20.if.isTrue.field = flexform_clear_column_sm_2
-                    30.if.isTrue.field = flexform_clear_column_md_2
+                    10.visible.if.isTrue.field = flexform_clear_column_xs_2
+                    20.visible.if.isTrue.field = flexform_clear_column_sm_2
+                    30.visible.if.isTrue.field = flexform_clear_column_md_2
                     
                 }
             }

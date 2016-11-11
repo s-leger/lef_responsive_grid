@@ -5,61 +5,21 @@
 lib.gridelements {
     
     lef_bootstrap_container {     
-        
         columns.0.renderObj = COA
         columns.0.renderObj {
             
-            10 = LOAD_REGISTER
-            10 {
-                # once fixed no way back to fluid
-            	fluid{
-            	    cObject = TEXT
-                    cObject{
-                        value =  0
-                        override.data = register:fluid
-                        override.if.isTrue = flexform_fluid
-                    }	
-            	}
-                # a fixed container always have container width
-                # fluid one dosen't change anything in width
-                width_xxs {
-                    cObject = TEXT
-                    cObject{
-                        data =  register:width_xxs
-                        override = {$plugin.lef_responsive_images.container.xs}
-                        override.if.isFalse = flexform_fluid
-                    }
-                }
-                
-                width_xs < .width_xxs
-                width_xs.cObject {
-                    data = register:width_xs
-                    override =  {$plugin.lef_responsive_images.container.xs}
-                    override.if.isFalse = flexform_fluid
-                }
-                width_sm < .width_xxs
-                width_sm.cObject{
-                    data = register:width_sm
-                    override =  {$plugin.lef_responsive_images.container.sm}
-                    override.if.isFalse = flexform_fluid
-                }
-                width_md < .width_xxs
-                width_md.cObject{
-                    data = register:width_md
-                    override =  {$plugin.lef_responsive_images.container.md}
-                    override.if.isFalse = flexform_fluid
-                }
-                width_lg < .width_xxs
-                width_lg.cObject{
-                    data = register:width_lg
-                    override =  {$plugin.lef_responsive_images.container.lg}
-                    override.if.isFalse = flexform_fluid
-                }
-            }
-            
+            5 = LOAD_REGISTER
+            10 = USER
+            10{
+                  userFunc = LEF\LefResponsiveImages\UserFuncs\TemplateWidthUserFunc->storeToRegister
+                  fluid = TEXT
+                  fluid.field = parentgrid_flexform_fluid                  
+            }  
+               
+
             20 = < tt_content
             
-            # 10-13
+            # 10
             30 = RESTORE_REGISTER   
             
         }

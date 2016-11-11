@@ -1,6 +1,13 @@
 #####################################
 #### LEF Bootstrap 3.x Grids     ####
 #####################################
+
+## fix ExtensionManagementUtility wrong setup
+tt_content.gridelements_pi1.20 = COA
+tt_content.gridelements_pi1.20.10 = USER
+tt_content.gridelements_pi1.20.10.userFunc = GridElementsTeam\Gridelements\Plugin\Gridelements->main
+
+
 <INCLUDE_TYPOSCRIPT: source="DIR:EXT:lef_responsive_grid/Configuration/TypoScript/Library/" extension="setupts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_container.setupts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_row.setupts">
@@ -9,5 +16,36 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_2col.setupts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_3col.setupts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_4col.setupts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/lef_bootstrap_forceImageWidth.setupts">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/TypoScript/Elements/tt_content.stdWrap.innerWrap.setupts">
 
+plugin.tx_lefresponsivegrid{
+
+    settings {
+
+        cssclasses{
+            # available : {breakpoint}{column}{columns}
+            template{
+                column = col-{breakpoint}-{column}
+                offset = col-{breakpoint}-offset-{column}
+                pull   = col-{breakpoint}-pull-{column}
+                push   = col-{breakpoint}-push-{column}
+                visibleup = {visible}-{breakpoint}-up
+                visibledown = {visible}-{breakpoint}-down
+                visible  = {visible}-{breakpoint}
+                hiddenprint = hidden-print
+            }
+            breakpoints{
+                0=xs
+                1=sm
+                2=md
+                3=lg
+                4=xl
+            }
+            columns{
+                0=12
+                1=5
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+/* Typo3 7.x */
+@media screen AND (min-width:480px){
+
+.lef_responsive_grid.field-inline .form-section {
+  display:inline-block;
+  border-width:1px 0 0 0;
+}
+.lef_responsive_grid.field-inline-5 .form-section {
+  width:20%;
+}
+.lef_responsive_grid.field-inline-4 .form-section {
+  width:25%;
+}
+.lef_responsive_grid.field-inline-3 .form-section {
+  width:33%;
+}
+.lef_responsive_grid.field-inline-2 .form-section {
+  width:50%;
+}
+
+}

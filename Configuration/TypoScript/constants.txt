@@ -2,7 +2,23 @@
 ############################
 ### CUSTOM SUBCATEGORIES ###
 ############################
-# customsubcategory=540=Features
+# #customcategory=responsive images=Responsive Images
+# #customcategory=javascript and css=Javascript and Css
+# #customcategory=grid system=Responsive Grid setup
+# customsubcategory=5600=Breakpoints media query (screen width)
+# customsubcategory=5610=Container
+# customsubcategory=5620=Container behaviour
+# customsubcategory=5630=Advanced
+# customsubcategory=5640=Retina settigs
+# customsubcategory=5650=Images
+# customsubcategory=5660=Frames
+# customsubcategory=5700=Javascript
+# customsubcategory=5710=Css
+# customsubcategory=5720=Templates content elements
+# customsubcategory=5730=Templates pages
 
+plugin.tx_lefglobalsettings {
+    
 
+}
 

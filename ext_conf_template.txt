@@ -1,0 +1,8 @@
+############################
+### CUSTOM SUBCATEGORIES ###
+###########################
+
+# customsubcategory=200_behiavour=Form
+
+# cat=General/200_behiavour/40; type=boolean; label=Keep standard backend layout and CSS for grid columns forms  
+disableBackedFormFormatting = 0

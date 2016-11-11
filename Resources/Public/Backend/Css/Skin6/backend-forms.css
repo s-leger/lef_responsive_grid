@@ -1,0 +1,21 @@
+/* Typo3 6.2.x */
+@media screen AND (min-width:480px){
+.lef_responsive_grid.field-inline .t3-form-field-container-flex{
+  display:inline-block;
+}
+.lef_responsive_grid.field-inline .t3-form-field-label-flex{
+  border-color:transparent;
+}
+.lef_responsive_grid.field-inline-5 .t3-form-field-container-flex{
+  width:20%;
+}
+.lef_responsive_grid.field-inline-4 .t3-form-field-container-flex{
+  width:25%;
+}
+.lef_responsive_grid.field-inline-3 .t3-form-field-container-flex{
+  width:33%;
+}
+.lef_responsive_grid.field-inline-2 .t3-form-field-container-flex{
+  width:50%;
+}
+}

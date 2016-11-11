@@ -5,3 +5,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/2columns.pagets">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/3columns.pagets">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/4columns.pagets">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:lef_responsive_grid/Configuration/PageTS/Elements/forceImageWidth.pagets">

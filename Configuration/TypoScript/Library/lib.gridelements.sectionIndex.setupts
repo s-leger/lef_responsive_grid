@@ -1,0 +1,33 @@
+lib.gridelements{
+    
+    # special sectionIndex menu working with gridelements with respect to columns order from lowest to biggest
+    sectionIndex = HMENU
+    sectionIndex{
+        # special sectionIndex function to get something working with gridelements
+        special = userfunction
+        special.userFunc = LEF\LefResponsiveGrid\ContentObject\LefResponsiveGridMenuContentObject->sectionIndex
+        special.sectionIndex{
+            useColPos = -1
+            type = header 
+        }
+        wrap = <div class="hidden-print hidden-xs hidden-sm list-group" role="complementary">|</div>
+        1 = TMENU
+        1{
+            NO = 1
+            NO{
+                doNotLinkIt = 1
+                stdWrap.cObject = TEXT
+                stdWrap.cObject{
+                    field = title
+                    typolink{
+                        parameter.data = TSFE:page|uid
+                        section.field = sectionIndex_uid
+                        ATagParams = data-target="#c{field:sectionIndex_uid}" 
+                        ATagParams.stdWrap.insertData = 1
+                    }       
+                }
+                allWrap = |
+            }   
+        }
+    }
+}

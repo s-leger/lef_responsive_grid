@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta type="array">
+  <langDisable>1</langDisable>
+</meta>
+  <sheets>
+    <general>
+      <ROOT type="array">
+        <TCEforms>
+          <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.breakpoint</sheetTitle>
+          <cssClass>lef_responsive_grid field-inline field-inline-3</cssClass>  
+        </TCEforms>
+        <el type="array">
+          <large type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.lg</label>
+              <onChange>reload</onChange>
+              <config type="array">
+                <type>check</type>
+                <items>
+                  <numIndex index="0">
+                    <numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.enable</numIndex>
+                    <numIndex index="1">1</numIndex>
+                  </numIndex>
+                </items>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </large>  
+          <medium type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.md</label>
+              <onChange>reload</onChange>
+              <config type="array">
+                <type>check</type>
+                <items>
+                  <numIndex index="0">
+                    <numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.enable</numIndex>
+                    <numIndex index="1">1</numIndex>
+                  </numIndex>
+                </items>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </medium>    
+          <small type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.sm</label>
+              <onChange>reload</onChange>
+              <config type="array">
+                <type>check</type>
+                <items>
+                  <numIndex index="0">
+                    <numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.enable</numIndex>
+                    <numIndex index="1">1</numIndex>
+                  </numIndex>
+                </items>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </small>  
+          <xsmall type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.xs</label>
+              <onChange>reload</onChange>
+              <config type="array">
+                <type>check</type>
+                <items>
+                  <numIndex index="0">
+                    <numIndex index="0">LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.enable</numIndex>
+                    <numIndex index="1">1</numIndex>
+                  </numIndex>
+                </items>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </xsmall> 
+        </el>
+      </ROOT>
+    </general>
+    <columns_md>
+      <ROOT type="array">
+        <TCEforms>
+          <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.md</sheetTitle>
+          <displayCond>FIELD:general.medium:=:1</displayCond>
+        </TCEforms>
+        <el type="array">
+          <width_column_md_1 type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
+              <config type="array">
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">1</numIndex></numIndex>
+                  <numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">2</numIndex></numIndex>
+                  <numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">3</numIndex></numIndex>
+                  <numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">4</numIndex></numIndex>
+                  <numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">5</numIndex></numIndex>
+                  <numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">6</numIndex></numIndex>
+                  <numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">7</numIndex></numIndex>
+                  <numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">8</numIndex></numIndex>
+                  <numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">9</numIndex></numIndex>
+                  <numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">10</numIndex></numIndex>
+                  <numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">11</numIndex></numIndex>
+                  <numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">12</numIndex></numIndex>
+                </items>
+                <default>12</default>
+              </config>
+            </TCEforms>
+          </width_column_md_1>
+        </el>
+      </ROOT>
+    </columns_md>
+    <columns_xs>
+      <ROOT type="array">
+        <TCEforms>
+          <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.xs</sheetTitle>
+          <displayCond>FIELD:general.xsmall:=:1</displayCond>
+        </TCEforms>
+        <el type="array">
+          <width_column_xs_1 type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
+              <config type="array">
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">1</numIndex></numIndex>
+                  <numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">2</numIndex></numIndex>
+                  <numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">3</numIndex></numIndex>
+                  <numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">4</numIndex></numIndex>
+                  <numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">5</numIndex></numIndex>
+                  <numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">6</numIndex></numIndex>
+                  <numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">7</numIndex></numIndex>
+                  <numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">8</numIndex></numIndex>
+                  <numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">9</numIndex></numIndex>
+                  <numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">10</numIndex></numIndex>
+                  <numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">11</numIndex></numIndex>
+                  <numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">12</numIndex></numIndex>
+                </items>
+                <default>12</default>
+              </config>
+            </TCEforms>
+          </width_column_xs_1>
+        </el>
+      </ROOT>
+    </columns_xs>
+    <columns_sm>
+      <ROOT type="array">
+        <TCEforms>
+          <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.sm</sheetTitle>
+          <displayCond>FIELD:general.small:=:1</displayCond>
+        </TCEforms>
+        <el type="array">
+          <width_column_sm_1 type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
+              <config type="array">
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">1</numIndex></numIndex>
+                  <numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">2</numIndex></numIndex>
+                  <numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">3</numIndex></numIndex>
+                  <numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">4</numIndex></numIndex>
+                  <numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">5</numIndex></numIndex>
+                  <numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">6</numIndex></numIndex>
+                  <numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">7</numIndex></numIndex>
+                  <numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">8</numIndex></numIndex>
+                  <numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">9</numIndex></numIndex>
+                  <numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">10</numIndex></numIndex>
+                  <numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">11</numIndex></numIndex>
+                  <numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">12</numIndex></numIndex>
+                </items>
+                <default>12</default>
+              </config>
+            </TCEforms>
+          </width_column_sm_1>
+        </el>
+      </ROOT>
+    </columns_sm>
+    <columns_lg>
+      <ROOT type="array">
+        <TCEforms>
+          <sheetTitle>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:sheet.lg</sheetTitle>
+          <displayCond>FIELD:general.large:=:1</displayCond>
+        </TCEforms>
+        <el type="array">
+          <width_column_lg_1 type="array">
+            <TCEforms type="array">
+              <label>LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.width.col1</label>
+              <config type="array">
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array"><numIndex index="0">1/12</numIndex><numIndex index="1">1</numIndex></numIndex>
+                  <numIndex index="1" type="array"><numIndex index="0">2/12</numIndex><numIndex index="1">2</numIndex></numIndex>
+                  <numIndex index="2" type="array"><numIndex index="0">3/12</numIndex><numIndex index="1">3</numIndex></numIndex>
+                  <numIndex index="3" type="array"><numIndex index="0">4/12</numIndex><numIndex index="1">4</numIndex></numIndex>
+                  <numIndex index="4" type="array"><numIndex index="0">5/12</numIndex><numIndex index="1">5</numIndex></numIndex>
+                  <numIndex index="5" type="array"><numIndex index="0">6/12</numIndex><numIndex index="1">6</numIndex></numIndex>
+                  <numIndex index="6" type="array"><numIndex index="0">7/12</numIndex><numIndex index="1">7</numIndex></numIndex>
+                  <numIndex index="7" type="array"><numIndex index="0">8/12</numIndex><numIndex index="1">8</numIndex></numIndex>
+                  <numIndex index="8" type="array"><numIndex index="0">9/12</numIndex><numIndex index="1">9</numIndex></numIndex>
+                  <numIndex index="9" type="array"><numIndex index="0">10/12</numIndex><numIndex index="1">10</numIndex></numIndex>
+                  <numIndex index="10" type="array"><numIndex index="0">11/12</numIndex><numIndex index="1">11</numIndex></numIndex>
+                  <numIndex index="11" type="array"><numIndex index="0">12/12</numIndex><numIndex index="1">12</numIndex></numIndex>
+                </items>
+                <default>12</default>
+              </config>
+            </TCEforms>
+          </width_column_lg_1>
+        </el>
+      </ROOT>
+    </columns_lg>    
+  </sheets>
+</T3DataStructure>

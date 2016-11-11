@@ -1,0 +1,30 @@
+#
+# Grid elements
+# Backend Layouts
+#
+
+tx_gridelements.setup{
+
+lef_bootstrap_forceImageWidth {
+title = Force image width
+description = Override automatic width to enforce image width
+  flexformDS = FILE:EXT:lef_responsive_grid/Configuration/FlexForms/bootstrap3_forceImageWidth.xml
+  icon = EXT:lef_responsive_grid/Resources/Public/Backend/Images/gridlayout_container.gif
+   frame = 3
+   config {
+    colCount = 1
+    rowCount = 1
+    rows {
+      1 {
+        columns {
+          1 {
+            name = LLL:EXT:lef_responsive_grid/Resources/Private/Language/locallang.xlf:label.content
+            colPos = 0
+          }
+        }
+      }
+    }
+  }
+}
+
+}
